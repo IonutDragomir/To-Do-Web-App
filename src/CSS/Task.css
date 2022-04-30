@@ -1,0 +1,53 @@
+.task-container {
+    display: flex;
+    width: 45vw;
+    justify-content: space-between;
+    align-content: center;
+    align-items: center;
+    border: 2px solid gray;
+    border-radius: 5px;
+    margin-bottom: 1vw;
+    padding: 0.5rem;
+}
+
+.checked {
+    background-color: #4caf50;
+    color: white;
+}
+
+.name-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 14vw;
+    align-items: center;
+}
+
+.button {
+    width: 5vw;
+    height: 5vh;
+    border-radius: 5px;
+    color: white;
+}
+
+.button:active {
+    border: 2px solid black;
+}
+
+.edit {
+    background-color: coral;
+}
+
+.delete {
+    background-color: #e82f2f;
+}
+
+/* .firstName {
+    border: none;
+    outline: none;
+} */
